@@ -1,0 +1,170 @@
+*{
+    margin : 0;
+    padding : 0;
+    font-family : sans-serif;
+}
+.banner{
+    width : 100%;
+    height : 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background4.jpg);
+    background-size : cover;
+    background-position : center;
+}
+
+.navbar{
+    width : 85%;
+    margin : auto;
+    padding : 35px 0;
+    display : flex;
+    align-items : center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style : none;
+    display : inline-block;
+    margin: 0 0 0 20px;
+    position : relative;
+}
+.navbar ul li a{
+    text-decoration : none;
+    color : #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content : "";
+    height : 3px;
+    width : 0;
+    background : #009688;
+    position : absolute;
+    left : 0;
+    bottom : -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width : 100%;
+}
+
+.content{
+    width : 100%;
+    position : absolute;
+    top : 50%;
+    transform : translateY(-50%);
+    text-align : center;
+    color : #fff;
+}
+.content h1{
+    font-size : 50px;
+    margin-top : 30px;
+}
+.content p{
+    margin : 20px auto;
+    font-weight : 100;
+    line-height : 25px;
+}
+
+.middle{
+    width : 100%;
+    position : absolute;
+    top : 40%;
+    transform : translateY(-50%);
+    text-align : center;
+    color : #fff;
+}
+.middle p{
+    line-height : 2;
+}
+.email{
+    display : inline-block;
+    color : #fff;
+    position : absolute;
+    top : 70%;
+    left : 5%;
+    line-height : 2;
+}
+.email h3{
+    text-align : center;
+}
+.phone{
+    display : inline-block;
+    color : #fff;
+    position : absolute;
+    top : 70%;
+    left : 45%;
+    line-height : 2;
+}
+.phone h3{
+    text-align : center;
+}
+.address{
+    display : inline-block;
+    color : #fff;
+    position : absolute;
+    top : 70%;
+    right : 5%;
+    line-height : 2;
+}
+.address h3{
+    text-align : center;
+}
+.instagram{
+    display : inline-block;
+    position : absolute;
+    bottom : 5%;
+    left : 42vw;
+    line-height : 2;
+}
+.linkedin{
+    display : inline-block;
+    position : absolute;
+    bottom : 5%;
+    right : 42vw;
+    line-height : 2;
+}
+.instagram a{
+    text-decoration : none;
+    color : #009688;
+}
+.linkedin a{
+    text-decoration : none;
+    color : #009688;
+}
+.instagram a:hover{
+    color : aquamarine;
+}
+.linkedin a:hover{
+    color : aquamarine;
+}
+.copyrights{
+    color : #009688;
+    position : absolute;
+    left : 40%;
+    bottom : 2%;
+}
+.description{
+    color : #fff; 
+    line-height : 2;
+    width : 70vw;
+    height : 70vh;
+    position : absolute;
+    top : 25%;
+    left : 10%;   
+}
+.image{
+    position : absolute;
+    right : 5%;
+    top : 25%;
+}
+.skills{
+    color : #fff;
+    position : absolute;
+    left : 10%;
+    bottom : 15%;
+}
+.skills img{
+    padding : 15px;
+}
+
+
+
+
+
